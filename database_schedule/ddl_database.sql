@@ -14,3 +14,12 @@ course_name VARCHAR(100),
 duration INT,
 PRIMARY KEY (course_id)
 );
+
+CREATE TABLE schedule (
+schedule_id INT,
+course_id INT,
+PRIMARY KEY (schedule_id),
+FOREIGN KEY (course_id) REFERENCES course(course_id),
+date DATE,
+time TIMESTAMP
+);
