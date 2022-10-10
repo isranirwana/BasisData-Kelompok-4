@@ -27,7 +27,7 @@
 -- 	(203, 'Riset Teknologi Informasi', '150');
 -- SELECT * FROM course
 
-# meengubah tipe data kolom time menjadi TIME
+# mengubah tipe data kolom time dari TIMESTAMP menjadi TIME
 -- ALTER TABLE schedule MODIFY time TIME
 
 # memasukkan data pada tabel schedule
